@@ -1,1 +1,4 @@
-# Aegis-V-A-High-Torque-Cycloidal-Robotic-Arm-with-CV-Guided-Autonomy
+Aegis-V-A-High-Torque-Cycloidal-Robotic-Arm-with-CV-Guided-Autonomy
+
+descrpition
+Aegis-V is a 5-axis stationary robotic manipulator designed to explore the limits of 3D-printed mechanical transmissions and computer vision. The core of the project involves engineering custom 3D-printed cycloidal disk reducers for each joint, providing the high torque-to-weight ratio necessary for a 1kg payload. The system is powered by a Raspberry Pi 4/5, which serves as the central processing unit for both motion control and real-time image analysis. Utilizing a top-down Pi Camera and the OpenCV library, Aegis-V can autonomously identify, categorize, and sort objects based on color and geometric profile. The project integrates Inverse Kinematics (IK) to translate 3D space coordinates into precise motor steps, creating a seamless "See-and-Act" loop for automated workspace tasks.
